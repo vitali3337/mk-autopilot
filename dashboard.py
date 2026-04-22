@@ -2,7 +2,7 @@
 import os, json, asyncio
 from datetime import datetime
 from aiohttp import web
-from engine import load_stats, WEEKLY_PLAN, BUSINESS
+from engine import load_stats, WEEKLY_PLAN
 
 DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="ru">
